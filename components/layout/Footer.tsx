@@ -99,15 +99,11 @@ export function Footer(): JSX.Element {
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-border/50 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <p className="text-muted-foreground text-sm flex items-center space-x-1">
-            <span>Built with</span>
-            <Heart className="h-4 w-4 text-red-500" />
-            <span>using React, TypeScript & Tailwind CSS</span>
-          </p>
+        <div className="border-t border-border/50 mt-8 pt-8 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0">
+          
 
           <p className="text-muted-foreground text-sm">
-            © 2024 FancyUI. All rights reserved.
+            © 2025 FancyUI. All rights reserved.
           </p>
         </div>
       </div>
