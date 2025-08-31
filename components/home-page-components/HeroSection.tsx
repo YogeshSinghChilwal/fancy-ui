@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden max-w-8xl mx-auto md:px-10">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden max-w-8xl mx-auto md:px-5">
         <FloatingShapes />
 
         <div className="container mx-auto px-4 text-center relative z-10">

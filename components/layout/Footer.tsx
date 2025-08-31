@@ -1,17 +1,17 @@
 "use client";
 
 import Link from "next/link";
-import { Github, Heart, Zap } from "lucide-react";
+import { Github, Zap } from "lucide-react";
 import { motion } from "motion/react";
 import { JSX } from "react";
 
 export function Footer(): JSX.Element {
   return (
-    <footer className=" bg-gradient-surface border-t border-border/50">
+    <footer className="bg-gradient-surface border-t border-border/50">
       {/* Gradient divider */}
       <div className="h-px bg-gradient-primary w-full" />
 
-      <div className="container py-12 max-w-8xl mx-auto px-10">
+      <div className="container py-12 max-w-8xl mx-auto px-6 md:px-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div className="md:col-span-2">

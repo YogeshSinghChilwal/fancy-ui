@@ -70,7 +70,7 @@ const showcaseComponents = [
 
 const Showcase = () => {
   return (
-    <section className="py-24 max-w-8xl mx-auto md:px-10  bg-gradient-to-br">
+    <section className="py-24 max-w-8xl mx-auto md:px-5  bg-gradient-to-br">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

@@ -38,7 +38,7 @@ const features = [
 
 const Features = () => {
   return (
-    <section className= "py-10 md:py-24 bg-gradient-surface max-w-8xl mx-auto md:px-10">
+    <section className= "py-10 md:py-24 bg-gradient-surface max-w-8xl mx-auto md:px-5">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
